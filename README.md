@@ -2,6 +2,7 @@
 
 ## Overview
 This repository contains a UI Automation testing framework using Playwright and TypeScript, designed with the Page Object Model (POM) pattern.
+All dymanic generated data, no hardcoding.
 
 ## Features
 - **Playwright Integration:** Leverages Playwright for browser automation.
