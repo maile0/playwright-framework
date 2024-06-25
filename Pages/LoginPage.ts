@@ -24,7 +24,7 @@ export class LoginPage {
     async visitHomePage() {
         await this.page.goto('https://automationintesting.online/#/admin');
         await this.collapseBanner.click();
-        //await this.page.waitForTimeout(1000);
+        await this.page.waitForTimeout(1000);
     }
 
     async login(username: string, password: string) {
